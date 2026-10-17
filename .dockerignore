@@ -1,0 +1,29 @@
+# Secrets - pass at runtime via --env-file / platform env vars
+.env
+.env.*
+
+# Local environment & caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# VCS / editor
+.git/
+.gitignore
+.vscode/
+.idea/
+.claude/
+
+# Local data / dev-only scripts (not shipped to prod)
+data/
+uploads/
+ingest_sample_kb.py
+
+# Not needed in the image
+tests/
+README.md
+Dockerfile
+.dockerignore
